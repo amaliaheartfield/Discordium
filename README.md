@@ -1,187 +1,135 @@
 <img width="1943" height="1093" alt="image" src="https://github.com/user-attachments/assets/cc2ff955-17c2-48c7-81c8-479a0f061850" />
 
-# DevPortfolio Template
+# Discordium.org – Public Report
 
-A modern, minimalist portfolio template built with Astro and Tailwind CSS. Perfect for developers looking to showcase their skills, experience, and projects in a clean, professional way.
+An evidence-based report documenting allegations and supporting material related to Discordium.org, its management, and associated staff.
 
-This was completely rebuilt from the ground up from V1. This template was built to be entirely ready to go with a quick config edit (see below) but also provides the ability to easily extend in whatever way you want.
+This repository exists to preserve information that has repeatedly been removed, disputed, or suppressed across platforms, most notably by Discordium themselves.
 
-This template also comes with `CLAUDE.md` and `.cursor/rules` files for easy integration with your existing AI workflows.
+---
 
-> **📬 Connect & Share!**  
-> For questions and updates, feel free to reach out on [**X (Twitter)**](https://x.com/rfitzio).  
-> If you've built and published your personal site with this template, I'd love to see it! Send me a DM 🚀
+## Overview
 
-## Preview
+Discordium.org presents itself as a professional advertising network for Discord servers, bots, and online communities.
 
-To view a live preview of the site, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+This report compiles **documented patterns of behavior**, including:
 
-## Built With
+- Harassment and retaliation against users  
+- Non-consensual sharing of personal data (doxxing)  
+- Public admissions of predatory or illegal behavior  
+- Violations of Discord Terms of Service  
+- GDPR compliance concerns  
+- Plagiarism and false ownership claims  
 
-- **[Astro](https://astro.build/)** - Static site generator for modern web apps
-- **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS framework
-- **[Tabler Icons](https://tabler.io/icons)** - Free and open source icons
-- **TypeScript** - For type-safe configuration
+These are not isolated claims. They are supported by **testimonies, archived messages, and third-party verification**. 
 
-## Updating the Template
+---
 
-### Configuration
+## Key Findings
 
-The template is designed to be easily customizable through the `src/config.ts` file. This single file controls:
+### 1. Doxxing & Personal Data Exposure
+Multiple staff members, including leadership, have shared personally identifiable information without consent. :contentReference[oaicite:1]{index=1}  
 
-- **Personal Information**: Name, title, description
-- **Accent Color**: Primary color theme (changing this will change the accent color site wide)
-- **Social Links**: Email, LinkedIn, Twitter, GitHub (all optional)
-- **About Section**: Personal bio/description
-- **Skills**: List of technical skills
-- **Projects**: Project showcase with descriptions and links
-- **Experience**: Work history with bullet points
-- **Education**: Educational background and achievements
+Internal confirmations indicate awareness of these actions at leadership level.
 
-If skills, projects, experience, or education are removed from the config, those sections will be hidden entirely.
+---
 
-### Example structures
+### 2. Harassment & Retaliation
+Users who reported misconduct or left negative reviews experienced:
 
-Here's what the config data structure looks like for each section:
+- Threats or intimidation  
+- Account bans or blacklisting  
+- Attempts to remove or suppress their statements  
 
-#### Basic Information
-```typescript
-name: "Your Name",
-title: "Your Job Title",
-description: "Brief site description",
-accentColor: "#1d4ed8", // Hex color for theme
-```
+This includes repeated efforts to remove verified public reviews. :contentReference[oaicite:2]{index=2}  
 
-#### Social Links (all optional)
-```typescript
-social: {
-  email: "your-email@example.com",
-  linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourprofile", 
-  github: "https://github.com/yourusername",
-}
-```
+---
 
-#### About Section
-```typescript
-aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio."
-```
+### 3. Staff Misconduct & Accountability Failures
+Evidence indicates:
 
-#### Skills
-```typescript
-skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
-```
+- Reports of abuse were ignored or dismissed  
+- Staff involved in misconduct remained active  
+- Internal whistleblowers faced backlash  
 
-#### Projects
-```typescript
-projects: [
-  {
-    name: "Project Name",
-    description: "Brief description of what the project does and its impact",
-    link: "https://github.com/yourusername/project",
-    skills: ["React", "Node.js", "AWS"], // Technologies used
-  }
-]
-```
+Leadership involvement has been directly referenced in multiple instances. :contentReference[oaicite:3]{index=3}  
 
-#### Experience
-```typescript
-experience: [
-  {
-    company: "Company Name",
-    title: "Your Job Title",
-    dateRange: "Jan 2022 - Present",
-    bullets: [
-      "Led development of microservices architecture serving 1M+ users",
-      "Reduced API response times by 40% through optimization",
-      "Mentored team of 5 junior developers",
-    ],
-  }
-]
-```
+---
 
-#### Education
-```typescript
-education: [
-  {
-    school: "University Name",
-    degree: "Bachelor of Science in Computer Science",
-    dateRange: "2014 - 2018",
-    achievements: [
-      "Graduated Magna Cum Laude with 3.8 GPA",
-      "Dean's List all semesters",
-      "President of Computer Science Club"
-    ]
-  }
-]
-```
+### 4. Public Admissions of Illegal Behavior
+Archived material includes staff statements acknowledging:
 
-### Icons
+- Predatory behavior  
+- Rule-breaking actions  
 
-The template uses [Tabler Icons](https://tabler.io/icons) for all icons. If you wish to add more icons and have it look consistent with what's already there, you can browse through their extensive icon library.
+Despite this, individuals remained within the organization. :contentReference[oaicite:4]{index=4}  
 
-## Project Structure
+---
 
-```
-devportfolio/
-├── public/
-│   └── favicon.svg          # Site favicon
-├── src/
-│   ├── components/          # Astro components
-│   │   ├── About.astro      # About section
-│   │   ├── Education.astro  # Education section
-│   │   ├── Experience.astro # Work experience section
-│   │   ├── Footer.astro     # Site footer
-│   │   ├── Header.astro     # Navigation header
-│   │   ├── Hero.astro       # Hero/intro section
-│   │   └── Projects.astro   # Projects showcase
-│   ├── pages/
-│   │   └── index.astro      # Main page layout
-│   ├── styles/
-│   │   └── global.css       # Global styles
-│   └── config.ts            # Site configuration
-├── astro.config.mjs         # Astro configuration
-├── package.json             # Project dependencies
-├── tailwind.config.js       # Tailwind configuration
-└── tsconfig.json            # TypeScript configuration
-```
+### 5. GDPR Compliance Concerns
+Discordium claims GDPR compliance, however:
 
-## Local Development
+- Data Protection Officer contact overlaps with ownership  
+- Required independence (GDPR Article 38) appears absent  
 
-If you'd like to run it locally:
+This raises questions about legitimacy of compliance claims. :contentReference[oaicite:5]{index=5}  
 
-```
-git clone https://github.com/RyanFitzgerald/devportfolio.git
-cd devportfolio
-npm install
-```
+---
 
-After that, start up the Astro dev server with:
+### 6. Plagiarism & False Ownership Claims
+Staff members have:
 
-```
-npm run dev
-```
+- Claimed ownership of major bots (e.g. MEE6, Mudae, Pokétwo)  
+- Been contradicted by actual developers  
 
-## Deployment
+This constitutes potential misrepresentation and copyright concerns. :contentReference[oaicite:6]{index=6}  
 
-The template can be deployed to any static hosting service easily (and in most cases, completely free). Here are some options:
+---
 
-- To deploy with Netlify, [click here](https://docs.astro.build/en/guides/deploy/netlify/).
-- To deploy with Vercel, [click here](https://docs.astro.build/en/guides/deploy/vercel/).
-- To deploy with GitHub Pages, [click here](https://docs.astro.build/en/guides/deploy/github/).
-- To deploy with Cloudflare Pages, [click here](https://docs.astro.build/en/guides/deploy/cloudflare/).
-- To deploy with Render, [click here](https://docs.astro.build/en/guides/deploy/render/).
+## External Actions & Verification
 
-Want to deploy somewhere else? Find more guides [here](https://docs.astro.build/en/guides/deploy/).
+Independent responses include:
 
-## Changelog
+- Verified reviews confirming reported experiences  
+- Removal or blacklisting by multiple Discord communities  
+- Engagement from legal and digital rights organizations  
 
-To view the changelog, see CHANGELOG.md.
+These responses indicate the issue extends beyond isolated disputes. :contentReference[oaicite:7]{index=7}  
 
-## License
+---
 
-This project is fully and completely MIT. See LICENSE.md.
+## Why This Exists
 
-## Questions?
+Content related to this topic has been:
 
-Feel free to reach out on [X (Twitter)](https://x.com/rfitzio) if you have any questions or need help.
+- Repeatedly removed from review platforms  
+- Disputed without specific rebuttal  
+- Dismissed without full evidence review  
+
+This repository serves as a **persistent, transparent archive**.
+
+---
+
+## Disclaimer
+
+This report presents documented claims, testimonies, and collected evidence.
+
+Readers are encouraged to:
+
+- Review the material directly  
+- Verify sources independently  
+- Draw their own conclusions  
+
+---
+
+## Contact
+
+For additional information, supporting material, or clarifications:
+
+- Discord: `fawn._`
+
+---
+
+## Status
+
+Ongoing — new evidence and updates may be added over time.
