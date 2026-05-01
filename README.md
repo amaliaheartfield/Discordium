@@ -1,4 +1,4 @@
-<img width="1943" height="1093" alt="image" src="https://github.com/user-attachments/assets/cc2ff955-17c2-48c7-81c8-479a0f061850" />
+<img alt="image" src="https://media.discordapp.net/attachments/917184938690899971/1499692787656818729/image.png?ex=69f5b93f&is=69f467bf&hm=c43bd98aabb3200f915e2a9f23b8fba8ec148c1d97ea7d6ebdc4b0b8189a2a37&=&format=webp&quality=lossless" />
 
 # Discordium.org – Public Report
 
@@ -14,34 +14,31 @@ Discordium.org presents itself as a professional advertising network for Discord
 
 This report compiles **documented patterns of behavior**, including:
 
-- Harassment and retaliation against users  
-- Non-consensual sharing of personal data (doxxing)  
-- Public admissions of predatory or illegal behavior  
+- Harassment, threats, and retaliation
+- Repeated non-consensual sharing of personal data (doxxing)  
+- Public admissions of predatory and illegal behavior  
 - Violations of Discord Terms of Service  
 - GDPR compliance concerns  
-- Plagiarism and false ownership claims  
+- Plagiarism and DMCA violations 
 
-These are not isolated claims. They are supported by **testimonies, archived messages, and third-party verification**. 
+These are not isolated claims. They are supported by **multiple testimonies and statements from Discordium themselves**. 
 
 ---
 
 ## Key Findings
 
 ### 1. Doxxing & Personal Data Exposure
-Multiple staff members, including leadership, have shared personally identifiable information without consent. :contentReference[oaicite:1]{index=1}  
+Multiple staff members, including Nassvoll, have shared and spread personal data without consent, multiple times. 
 
-Internal confirmations indicate awareness of these actions at leadership level.
+Internal confirmations indicate most, if not all, of Discordium leadership is aware of this and other suspicious behavior.
 
 ---
 
 ### 2. Harassment & Retaliation
 Users who reported misconduct or left negative reviews experienced:
 
-- Threats or intimidation  
-- Account bans or blacklisting  
+- Harassment, threats, retaliatiton, and/or intimidation  
 - Attempts to remove or suppress their statements  
-
-This includes repeated efforts to remove verified public reviews. :contentReference[oaicite:2]{index=2}  
 
 ---
 
@@ -52,17 +49,17 @@ Evidence indicates:
 - Staff involved in misconduct remained active  
 - Internal whistleblowers faced backlash  
 
-Leadership involvement has been directly referenced in multiple instances. :contentReference[oaicite:3]{index=3}  
+Leadership involvement has been directly confirmed in multiple instances. 
 
 ---
 
 ### 4. Public Admissions of Illegal Behavior
-Archived material includes staff statements acknowledging:
+Staff statements confirm:
 
 - Predatory behavior  
-- Rule-breaking actions  
+- Breaking the law  
 
-Despite this, individuals remained within the organization. :contentReference[oaicite:4]{index=4}  
+Despite this, they remained administrators.   
 
 ---
 
@@ -72,17 +69,16 @@ Discordium claims GDPR compliance, however:
 - Data Protection Officer contact overlaps with ownership  
 - Required independence (GDPR Article 38) appears absent  
 
-This raises questions about legitimacy of compliance claims. :contentReference[oaicite:5]{index=5}  
+This raises questions about legitimacy of compliance claims.  
 
 ---
 
 ### 6. Plagiarism & False Ownership Claims
 Staff members have:
 
-- Claimed ownership of major bots (e.g. MEE6, Mudae, Pokétwo)  
-- Been contradicted by actual developers  
-
-This constitutes potential misrepresentation and copyright concerns. :contentReference[oaicite:6]{index=6}  
+- Listed themselves as developers under major Discord bots (e.g. MEE6, Mudae, Pokétwo)  
+- Been contradicted by the actual developers
+- Confirmed DMCA violations and takedown notices 
 
 ---
 
@@ -90,29 +86,13 @@ This constitutes potential misrepresentation and copyright concerns. :contentRef
 
 Independent responses include:
 
-- Verified reviews confirming reported experiences  
+- Multiple verified reported experiences  
 - Removal or blacklisting by multiple Discord communities  
 - Engagement from legal and digital rights organizations  
 
-These responses indicate the issue extends beyond isolated disputes. :contentReference[oaicite:7]{index=7}  
+These responses indicate the issue isn't "just Discord drama."
 
 ---
-
-## Why This Exists
-
-Content related to this topic has been:
-
-- Repeatedly removed from review platforms  
-- Disputed without specific rebuttal  
-- Dismissed without full evidence review  
-
-This repository serves as a **persistent, transparent archive**.
-
----
-
-## Disclaimer
-
-This report presents documented claims, testimonies, and collected evidence.
 
 Readers are encouraged to:
 
@@ -122,14 +102,6 @@ Readers are encouraged to:
 
 ---
 
-## Contact
-
-For additional information, supporting material, or clarifications:
-
-- Discord: `fawn._`
-
----
-
 ## Status
 
-Ongoing — new evidence and updates may be added over time.
+Ongoing — new evidence and updates may be added over time, as Discordium does not appear to have any intentions of addressing or resolving these issues.
