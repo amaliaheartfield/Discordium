@@ -2,34 +2,165 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout
-  title="Discordium.org – Harassment, Doxxing, Predators, Privacy Violations & Misconduct"
-  description="Report on Discordium.org covering harassment, GDPR concerns, doxxing allegations, admittance to predatory and illegal behavior, and Discord TOS violations."
->
-  <main class="max-w-4xl mx-auto p-6">
-    <h1 class="text-4xl font-bold mb-6">
-      Discordium.org: What’s Actually Going On?
-    </h1>
+<BaseLayout title="Discordium.org Investigation">
+  <main class="bg-neutral-950 text-white min-h-screen px-6 py-12">
 
-    <p class="mb-4">
-      Discordium presents itself as a professional Discord advertising network.
-    </p>
+    <!-- HERO -->
+    <section class="max-w-5xl mx-auto mb-16 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">
+        Discordium.org: An Ongoing Pattern of Misconduct
+      </h1>
+      <p class="text-neutral-300 text-lg">
+        Discordium presents itself as a professional Discord advertising service.
+        Evidence and testimonies from multiple sources suggest a consistent pattern
+        of harassment, data misuse, and policy violations.
+      </p>
+    </section>
 
-    <p class="mb-4 font-semibold">
-      Multiple reports suggest a different reality.
-    </p>
+    <!-- SUMMARY -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        Overview
+      </h2>
 
-    <ul class="list-disc ml-6 mb-6">
-      <li>Harassment, threats, intimidation, and retaliation against critics</li>
-      <li>Non-consensual sharing of personal information</li>
-      <li>Attempts to suppress reports and reviews</li>
-      <li>Openly admitting to predators and illegal behavior</li>
-      <li>Copyright concerns and DMCA violations</li>
-      <li>Conflicting claims about GDPR compliance</li>
-    </ul>
+      <p class="text-neutral-300 leading-relaxed">
+        Discordium.org, operated by Nassvoll (Aljoscha Klemcke), advertises itself as a legitimate platform
+        for Discord server promotion. However, collected evidence indicates repeated involvement in:
+      </p>
 
-    <p>
-      This site documents both publicly available evidence and testimonies.
-    </p>
+      <ul class="mt-6 space-y-3 text-neutral-300">
+        <li>• Harassment and retaliation against critics</li>
+        <li>• Non-consensual sharing of personal information (doxxing)</li>
+        <li>• Public admissions of predatory or illegal behavior by staff</li>
+        <li>• Violations of Discord Terms of Service</li>
+        <li>• GDPR compliance failures</li>
+        <li>• Copyright infringement and false ownership claims</li>
+      </ul>
+    </section>
+
+    <!-- INCIDENT: WEBHOOK RAID -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        Recent Incident: Webhook Abuse & Server Raid
+      </h2>
+
+      <p class="text-neutral-300 mb-6">
+        A Discordium administrator triggered mass webhook spam, repeatedly pinging entire servers
+        while broadcasting accusations involving internal staff. Only administrators had access
+        to these webhook systems.
+      </p>
+
+      <!-- 🔴 IMAGE PLACEHOLDER -->
+      <img src="/images/webhook-raid.png" alt="Webhook spam incident" class="rounded-lg mb-4 border border-neutral-800" />
+      <!-- Upload image to: /public/images/webhook-raid.png -->
+
+      <p class="text-neutral-400 text-sm">
+        Screenshot: Public logs showing repeated webhook messages and admin-level access behavior
+      </p>
+    </section>
+
+    <!-- PREDATOR COVER-UP -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        Internal Admissions & Staff Protection
+      </h2>
+
+      <p class="text-neutral-300">
+        Evidence shows internal acknowledgment of serious misconduct within staff ranks,
+        including allegations involving predatory behavior. Despite this, individuals remained active
+        or were quietly removed without explanation.
+      </p>
+
+      <!-- 🔴 IMAGE -->
+      <img src="/images/predator-admission.png" class="rounded-lg mt-6 border border-neutral-800" />
+      <!-- /public/images/predator-admission.png -->
+
+      <p class="text-neutral-400 text-sm mt-2">
+        Internal messages indicating awareness and lack of enforcement
+      </p>
+    </section>
+
+    <!-- DOXXING -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        Doxxing & Personal Data Exposure
+      </h2>
+
+      <p class="text-neutral-300">
+        Multiple staff members, including leadership, have been documented sharing personal
+        information without consent. This includes Discord IDs and other identifying data,
+        in direct violation of platform policies.
+      </p>
+
+      <!-- 🔴 IMAGE -->
+      <img src="/images/doxxing-proof.png" class="rounded-lg mt-6 border border-neutral-800" />
+      <!-- /public/images/doxxing-proof.png -->
+    </section>
+
+    <!-- RETALIATION -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        Retaliation Against Reports
+      </h2>
+
+      <ul class="space-y-3 text-neutral-300">
+        <li>• Users reporting misconduct are banned</li>
+        <li>• Evidence is deleted or dismissed</li>
+        <li>• Legal threats are used to silence criticism</li>
+        <li>• Reviews are repeatedly flagged for removal</li>
+      </ul>
+
+      <!-- 🔴 IMAGE -->
+      <img src="/images/threats.png" class="rounded-lg mt-6 border border-neutral-800" />
+      <!-- /public/images/threats.png -->
+    </section>
+
+    <!-- GDPR -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        GDPR Compliance Issues
+      </h2>
+
+      <p class="text-neutral-300">
+        Discordium claims GDPR compliance, yet their Data Protection Officer appears to be the same
+        individual as the owner. This conflicts with GDPR Article 38, which requires independence
+        in data protection oversight.
+      </p>
+    </section>
+
+    <!-- COPYRIGHT -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        False Ownership & Copyright Concerns
+      </h2>
+
+      <p class="text-neutral-300">
+        Staff members have claimed ownership of major Discord bots such as MEE6, Carl, and Pokétwo.
+        Original developers have confirmed these claims are false.
+      </p>
+    </section>
+
+    <!-- EXTERNAL VALIDATION -->
+    <section class="max-w-5xl mx-auto mb-16">
+      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
+        External Actions & Verification
+      </h2>
+
+      <ul class="space-y-3 text-neutral-300">
+        <li>• Trustpilot verified multiple reports as genuine</li>
+        <li>• Discord servers have blacklisted Discordium</li>
+        <li>• Listing platforms have removed their presence</li>
+        <li>• Legal and regulatory bodies have acknowledged complaints</li>
+      </ul>
+    </section>
+
+    <!-- FULL REPORT -->
+    <section class="max-w-5xl mx-auto text-center">
+      <a href="YOUR_GOOGLE_DOC_LINK"
+         class="inline-block bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-neutral-200 transition">
+        View Full 67-Page Report
+      </a>
+    </section>
+
   </main>
 </BaseLayout>
