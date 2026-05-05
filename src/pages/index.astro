@@ -55,7 +55,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
     <!-- IMAGE GRID -->
     <div class="grid md:grid-cols-2 gap-6">
-      <img src="/images/doxxing-1.png" class="rounded-lg border border-neutral-800"/>
+      <img src={`${import.meta.env.BASE_URL}images/doxxing-1.png`} class="rounded-lg border border-neutral-800"/>
       <img src="/images/doxxing-2.png" class="rounded-lg border border-neutral-800"/>
     </div>
     <!-- PUT IMAGES IN: /public/images/doxxing-1.png, doxxing-2.png -->
