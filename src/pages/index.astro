@@ -18,6 +18,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </p>
 
     <p class="text-3xl font-bold mt-10">Wrong.</p>
+
+    <div class="grid md:grid-cols-1 gap-6">
+      <img src={`${import.meta.env.BASE_URL}images/intro-1.png`} class="rounded-lg border border-neutral-800"/>
+    </div>
   </section>
 
   <!-- INTRO -->
@@ -260,8 +264,8 @@ Official response acknowledging misconduct while keeping the same staff in place
       <img src={`${import.meta.env.BASE_URL}images/bot-12.png`} class="rounded-lg border border-neutral-800 scale-130"/>
     </div>
 
-    <h2 class="text-3xl font-bold mb-6">Their staff have also had DMCA violations and takedowns issued against them.</h2>
     <div class="grid md:grid-cols-3 gap-6">
+    <h2 class="text-3xl font-bold mb-6">Their staff have also had DMCA violations and takedowns issued against them.</h2>
       <img src={`${import.meta.env.BASE_URL}images/dmca-1.png`} class="rounded-lg border border-neutral-800 scale-110"/>
       <img src={`${import.meta.env.BASE_URL}images/dmca-2.png`} class="rounded-lg border border-neutral-800 scale-110"/>
     </div>
@@ -275,7 +279,7 @@ Official response acknowledging misconduct while keeping the same staff in place
         Multiple communities, websites, and organizations have banned or blacklisted Discordium. This isn't "just Discord drama."
       </p>
   
-      <div class="grid md:grid-cols-2 gap-6">
+      <div class="grid md:grid-cols-1 gap-6">
         <img src={`${import.meta.env.BASE_URL}images/external-1.png`} class="rounded-lg border border-neutral-800"/>
         <img src={`${import.meta.env.BASE_URL}images/external-2.png`} class="rounded-lg border border-neutral-800 scale-110"/>
         <img src={`${import.meta.env.BASE_URL}images/external-3.png`} class="rounded-lg border border-neutral-800 scale-130"/>
