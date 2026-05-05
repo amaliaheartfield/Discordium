@@ -2,144 +2,214 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="Is Discordium.org legit?">
-  <main class="bg-neutral-950 text-white min-h-screen px-6 py-12">
+<BaseLayout title="Discordium Investigation">
+<main class="bg-gradient-to-b from-black via-neutral-900 to-black text-white min-h-screen">
 
-    <!-- HERO -->
-    <section class="max-w-5xl mx-auto mb-16 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-6">
-        Discordium.org presents itself as a professional Discord advertising network. Multiple reports suggest a different reality.
-      </h1>
-      <p class="text-neutral-300 text-lg">
-         Discordium.org, operated by Nassvoll (Aljoscha Klemcke), advertises itself as a legitimate platform
-        for Discord server promotion. However, collected evidence indicates repeated involvement in:Evidence and testimonies from multiple sources suggest a consistent pattern
-        of doxxing, data misuse, harassment, threats, retaliation, intimidation, GDPR violations, copyright concerns, DMCA violations, illegal behavior, predatory behavior, and Discord TOS violations.
+  <!-- HERO -->
+  <section class="max-w-4xl mx-auto px-6 py-20 text-center">
+    <p class="text-neutral-400 uppercase tracking-widest mb-4">Investigative Report</p>
+
+    <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+      Discordium
+    </h1>
+
+    <p class="text-xl text-neutral-300 max-w-2xl mx-auto leading-relaxed">
+      We all know Discord is loaded with predators.  
+      But you’d expect that once something serious is exposed… it gets handled.
+    </p>
+
+    <p class="text-3xl font-bold mt-10">Wrong.</p>
+  </section>
+
+  <!-- INTRO -->
+  <section class="max-w-4xl mx-auto px-6 py-12">
+    <div class="bg-neutral-900 border border-neutral-800 rounded-xl p-8 shadow-xl">
+      <p class="text-neutral-300 leading-relaxed">
+        Discordium.org, operated by Nassvoll (Aljoscha Klemcke), presents itself as a professional Discord advertising platform.
       </p>
-    </section>
 
-    <!-- INCIDENT: WEBHOOK RAID -->
-    <section class="max-w-5xl mx-auto mb-16">
-      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
-        Recent Incident: Webhook Abuse & Server Raid
-      </h2>
+      <p class="text-neutral-300 mt-4">
+        Evidence suggests something else entirely:
+      </p>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6 text-sm">
+        <div class="bg-neutral-800 p-3 rounded">Doxxing</div>
+        <div class="bg-neutral-800 p-3 rounded">Harassment</div>
+        <div class="bg-neutral-800 p-3 rounded">Threats</div>
+        <div class="bg-neutral-800 p-3 rounded">Intimidation</div>
+        <div class="bg-neutral-800 p-3 rounded">Retaliation</div>
+        <div class="bg-neutral-800 p-3 rounded">Predators</div>
+        <div class="bg-neutral-800 p-3 rounded">Illegal Activity</div>
+        <div class="bg-neutral-800 p-3 rounded">GDPR Violations</div>
+        <div class="bg-neutral-800 p-3 rounded">DMCA Violations</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: DOXXING -->
+  <section class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-6">Doxxing</h2>
+
+    <p class="text-neutral-300 mb-8">
+      Multiple Discordium staff, including leadership, have spread personal information without consent. Sharing PII is a clear violation of Discord TOS.
+    </p>
+
+    <!-- IMAGE GRID -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <img src="/images/doxxing-1.png" class="rounded-lg border border-neutral-800"/>
+      <img src="/images/doxxing-2.png" class="rounded-lg border border-neutral-800"/>
+    </div>
+    <!-- PUT IMAGES IN: /public/images/doxxing-1.png, doxxing-2.png -->
+
+    <p class="text-neutral-400 mt-6 text-sm">
+      Evidence of repeated PII exposure by staff
+    </p>
+  </section>
+
+  <!-- SECTION: RETALIATION -->
+  <section class="bg-neutral-900 border-y border-neutral-800">
+    <div class="max-w-5xl mx-auto px-6 py-16">
+      <h2 class="text-3xl font-bold mb-6">What Happens When You Speak Up?</h2>
+
+      <p class="text-neutral-300 mb-10">
+        Instead of accountability, reports are met with dismission, silence—or escalation.
+      </p>
+
+      <!-- IMAGES -->
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="/images/retaliation-1.png" class="rounded-lg border border-neutral-800"/>
+        <img src="/images/retaliation-2.png" class="rounded-lg border border-neutral-800"/>
+        <img src="/images/retaliation-3.png" class="rounded-lg border border-neutral-800"/>
+      </div>
+      <!-- /public/images/retaliation-1.png etc -->
+
+      <blockquote class="mt-10 border-l-4 border-red-500 pl-6 text-lg text-neutral-200">
+        Threats. Intimidation. Harassment.  
+        Both privately and publicly.
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- SECTION: ESCALATION -->
+  <section class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-6">Escalation Instead of Accountability</h2>
+
+    <p class="text-neutral-300 mb-8">
+      Evidence shows staff actively attempting to gather more personal data instead of stopping, even going so far as ban evading, another violation of Discord TOS.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <img src="/images/escalation-1.png" class="rounded-lg border border-neutral-800"/>
+      <img src="/images/escalation-2.png" class="rounded-lg border border-neutral-800"/>
+    </div>
+
+    <p class="text-neutral-400 mt-6 text-sm">
+      Attempts to continue data collection and harassment
+    </p>
+  </section>
+
+  <!-- IMPACT BREAK -->
+  <section class="text-center py-20 px-6">
+    <p class="text-2xl text-neutral-300 max-w-3xl mx-auto">
+      No apology. No accountability. No correction.
+    </p>
+
+    <p class="text-4xl font-bold mt-6">Is this a “professional company”?</p>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section class="bg-neutral-900 border-y border-neutral-800">
+    <div class="max-w-5xl mx-auto px-6 py-16">
+      <h2 class="text-3xl font-bold mb-6">Not Just One Case</h2>
+
+      <p class="text-neutral-300 mb-8">
+        Similar incidents have been reported by multiple users.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="/images/community-1.png" class="rounded-lg border border-neutral-800"/>
+        <img src="/images/community-2.png" class="rounded-lg border border-neutral-800"/>
+        <img src="/images/community-3.png" class="rounded-lg border border-neutral-800"/>
+      </div>
+
+      <blockquote class="mt-10 border-l-4 border-yellow-500 pl-6 text-lg">
+        “You might all be thinking: This could be fake; or, it could be one hater and multiple alt accounts or friends. And these are valid points. But if the evidence was fake or photoshopped, that would have been Discordium's first response. And if you look through their responses, you'll realize that they NEVER say this.”
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- STAFF ADMISSIONS -->
+  <section class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-6">Their Own Staff Confirm It</h2>
+
+    <p class="text-neutral-300 mb-8">
+      Internal messages show staff acknowledging misconduct, even gloating about it.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <img src="/images/staff-1.png" class="rounded-lg border border-neutral-800"/>
+      <img src="/images/staff-2.png" class="rounded-lg border border-neutral-800"/>
+    </div>
+  </section>
+
+  <!-- GDPR -->
+  <section class="bg-neutral-900 border-y border-neutral-800">
+    <div class="max-w-5xl mx-auto px-6 py-16">
+      <h2 class="text-3xl font-bold mb-6">GDPR Violations</h2>
 
       <p class="text-neutral-300 mb-6">
-        A Discordium administrator triggered mass webhook spam, repeatedly pinging entire servers
-        while broadcasting accusations involving internal staff. Only administrators had access
-        to these webhook systems.
+        GDPR is Europe's set of privacy data laws. Article 38 states that the Data Protection Officer (DPO) cannot have a conflict of interest with the controller (Aljoscha Klemcke). But the same individual appears to act as both owner and Data Protection Officer for Discordium.
       </p>
 
-      <!-- 🔴 IMAGE PLACEHOLDER -->
-      <img src="/images/webhook-raid.png" alt="Webhook spam incident" class="rounded-lg mb-4 border border-neutral-800" />
-      <!-- Upload image to: /public/images/webhook-raid.png -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <img src="/images/gdpr-1.png" class="rounded-lg border border-neutral-800"/>
+        <img src="/images/gdpr-2.png" class="rounded-lg border border-neutral-800"/>
+      </div>
 
-      <p class="text-neutral-400 text-sm">
-        Screenshot: Public logs showing repeated webhook messages and admin-level access behavior
+      <p class="text-neutral-400 mt-6">
+        Policy changes were made without notice after being questioned.
       </p>
-    </section>
+    </div>
+  </section>
 
-    <!-- PREDATOR COVER-UP -->
-    <section class="max-w-5xl mx-auto mb-16">
-      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
-        Internal Admissions & Staff Protection
-      </h2>
+  <!-- DMCA -->
+  <section class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-6">DMCA & Copyright Issues</h2>
 
-      <p class="text-neutral-300">
-        Evidence shows internal acknowledgment of serious misconduct within staff ranks,
-        including allegations involving predatory behavior. Despite this, individuals remained active
-        or were quietly removed without explanation.
-      </p>
+    <p class="text-neutral-300 mb-8">
+      Discordium lists bots they do not own and claims to be the bot developers.
+    </p>
 
-      <!-- 🔴 IMAGE -->
-      <img src="/images/predator-admission.png" class="rounded-lg mt-6 border border-neutral-800" />
-      <!-- /public/images/predator-admission.png -->
+    <div class="grid md:grid-cols-3 gap-6">
+      <img src="/images/dmca-1.png"/>
+      <img src="/images/dmca-2.png"/>
+      <img src="/images/dmca-3.png"/>
+    </div>
+    <p class="text-neutral-300 mb-8">
+      Their staff have also had DMCA violations and takedowns issued against them. 
+    </p>
 
-      <p class="text-neutral-400 text-sm mt-2">
-        Internal messages indicating awareness and lack of enforcement
-      </p>
-    </section>
+    <div class="grid md:grid-cols-3 gap-6">
+      <img src="/images/dmca-1.png"/>
+      <img src="/images/dmca-2.png"/>
+      <img src="/images/dmca-3.png"/>
+    </div>
+  </section>
 
-    <!-- DOXXING -->
-    <section class="max-w-5xl mx-auto mb-16">
-      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
-        Doxxing & Personal Data Exposure
-      </h2>
+  <!-- FINAL -->
+  <section class="text-center py-24 px-6">
+    <h2 class="text-4xl font-bold mb-6">
+      Harassment. Doxxing. Threats. Predators.
+    </h2>
 
-      <p class="text-neutral-300">
-        Multiple staff members, including leadership, have been documented sharing personal
-        information without consent. This includes Discord IDs and other identifying data,
-        in direct violation of platform policies.
-      </p>
+    <p class="text-neutral-300 max-w-2xl mx-auto mb-8">
+      Reported repeatedly. Documented extensively. Still active.
+    </p>
 
-      <!-- 🔴 IMAGE -->
-      <img src="/images/doxxing-proof.png" class="rounded-lg mt-6 border border-neutral-800" />
-      <!-- /public/images/doxxing-proof.png -->
-    </section>
+    <p class="text-2xl font-semibold">
+      What are you going to do about it?
+    </p>
+  </section>
 
-    <!-- RETALIATION -->
-    <section class="max-w-5xl mx-auto mb-16">
-      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
-        Retaliation Against Reports
-      </h2>
-
-      <ul class="space-y-3 text-neutral-300">
-        <li>• Users reporting misconduct are banned</li>
-        <li>• Evidence is deleted or dismissed</li>
-        <li>• Legal threats are used to silence criticism</li>
-        <li>• Reviews are repeatedly flagged for removal</li>
-      </ul>
-
-      <!-- 🔴 IMAGE -->
-      <img src="/images/threats.png" class="rounded-lg mt-6 border border-neutral-800" />
-      <!-- /public/images/threats.png -->
-    </section>
-
-    <!-- GDPR -->
-    <section class="max-w-5xl mx-auto mb-16">
-      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
-        GDPR Compliance Issues
-      </h2>
-
-      <p class="text-neutral-300">
-        Discordium claims GDPR compliance, yet their Data Protection Officer appears to be the same
-        individual as the owner. This conflicts with GDPR Article 38, which requires independence
-        in data protection oversight.
-      </p>
-    </section>
-
-    <!-- COPYRIGHT -->
-    <section class="max-w-5xl mx-auto mb-16">
-      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
-        False Ownership & Copyright Concerns
-      </h2>
-
-      <p class="text-neutral-300">
-        Staff members have claimed ownership of major Discord bots such as MEE6, Carl, and Pokétwo.
-        Original developers have confirmed these claims are false.
-      </p>
-    </section>
-
-    <!-- EXTERNAL VALIDATION -->
-    <section class="max-w-5xl mx-auto mb-16">
-      <h2 class="text-2xl font-semibold mb-6 border-b border-neutral-800 pb-2">
-        External Actions & Verification
-      </h2>
-
-      <ul class="space-y-3 text-neutral-300">
-        <li>• Trustpilot verified multiple reports as genuine</li>
-        <li>• Discord servers have blacklisted Discordium</li>
-        <li>• Listing platforms have removed their presence</li>
-        <li>• Legal and regulatory bodies have acknowledged complaints</li>
-      </ul>
-    </section>
-
-    <!-- FULL REPORT -->
-    <section class="max-w-5xl mx-auto text-center">
-      <a href="YOUR_GOOGLE_DOC_LINK"
-         class="inline-block bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-neutral-200 transition">
-        View Full 67-Page Report
-      </a>
-    </section>
-
-  </main>
+</main>
 </BaseLayout>
