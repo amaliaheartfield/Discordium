@@ -7,4 +7,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  site: 'https://discordium-org.github.io/Discordium/',
+  base: '/Discordium/',
 });
